@@ -17,9 +17,6 @@ class xBurguer(
             println("Quantos X-Burguer's?")
             quantidade = readln().toInt()
             var resultado = quantidade * valor
-                println("Quantidade: $quantidade")
-                println("Nome: $nome")
-                println("Valor: %.2f".format(resultado))
             }
             catch(e: NumberFormatException) {
             println("Formato inválido, digite um número")
